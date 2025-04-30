@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: #111;
+    color: #00ff99;
+    font-family:'Montserrat', Times, serif;
+}
+
+.nav-link{
+    color: #00ff99 ;
+} 
+.nav-link:hover {
+    color: #ff00ff;
+    transition: color 0.3s ease;
+}
+
+
+h1, h2 {
+    color: #ff00ff;
+    text-align: center;
+}
+#h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+h3 {
+    color: #ff00ff;
+}
+
+.header-section {
+    background: linear-gradient(180deg, #27005D, #111);
+}
+
+.paragraph-text {
+    font-size: 18px;
+    color: #00ff99;
+}
+
+section {
+    background-color: #27005D;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px #ff00ff;
+}
+
+img {
+    border-radius: 10px;
+}
+
+footer{
+    color: #00ff99;
+    background: linear-gradient(360deg, #00366c, #111);
+}
+
+footer a {
+    color: #00ff99;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff00ff;
+    transition: color 0.3s ease;
+}
+
+
+
+
+
+.content-section {
+    margin: 1em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}

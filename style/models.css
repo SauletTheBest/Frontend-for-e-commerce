@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #111;
+    color: #00ff99;
+    margin: 0;
+    padding: 0;
+}
+.header-section {
+    background: linear-gradient(180deg, #27005D, #111);
+    padding: 20px;
+}
+#h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+h1, h2 {
+    color: #ff00ff;
+    text-align: center;
+}
+
+.navbar-brand h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff00ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #00ff99 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff00ff !important;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+/* Card Styling */
+.card {
+    border: 2px solid #00ff99;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff99;
+}
+
+/* Card Titles */
+.card-title {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff00ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Card Subtitles */
+.card-subtitle {
+    color: #00ff99;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(360deg, #40394A, #111);
+    color: #ff00ff;
+}
+
+footer h5 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff00ff;
+}
+
+footer a:hover {
+    color: #ff00ff !important;
+}

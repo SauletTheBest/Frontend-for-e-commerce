@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #111;
+    color: #00ff99;
+    font-family: 'Montserrat', monospace;
+}
+
+.header-section {
+    background: linear-gradient(180deg, #27005D, #111);
+}
+
+.nav-link {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+#h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+h1, h2 {
+    color: #ff00ff;
+}
+
+
+main {
+    padding: 50px;
+    background-color: #111;
+}
+
+
+.car-item {
+    background-color: #1a1a1a;
+    border: 1px solid #00ff99;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+figure img {
+    filter: drop-shadow(1px 1px 20px yellow);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    width: 200px;
+    max-width: 200px;
+}
+
+figure img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00ff99;
+}
+
+
+footer {
+    background: linear-gradient(360deg, #393E46, #111);
+
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header-section {
+    background: linear-gradient(180deg, #27005D, #111);
+    font-family: 'Montserrat', sans-serif ;
+}
+body {
+    background-color: #111;
+    color: #00ff99;
+    font-family: 'Montserrat', sans-serif;
+}
+#h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 33px;
+}
+
+h1, h2 {
+    color: #ff00ff;
+}
+
+.neon-text {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+.custom-input {
+    background-color: #1a1a1a;
+    padding: 10px; 
+    border: 1px solid #00fff6;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.neon-button {
+    background-color: #ff00ff;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+.neon-button:hover {
+    background-color: #00ff99;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #00ff99;
+    color: #000;
+}
+
+.neon-link {
+    color: #00ff99;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.neon-link:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+footer {
+    background: linear-gradient(360deg, #00366c, #111);
+
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}

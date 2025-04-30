@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=VT323&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #111;
+    color: #00ff99;
+    padding: 0;
+}
+.header-section {
+    background: linear-gradient(180deg, #27005D, #111);
+    padding: 20px;
+}
+#h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+h1, h2 {
+    color: #ff00ff;
+    text-align: center;
+    font-weight: bold;
+}
+h4 {
+    font-weight: bold;
+    color:#00ff99
+}
+.navbar-brand h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff00ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #00ff99 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff00ff !important;
+    text-shadow: 0 0 10px #ff00ff;
+
+}
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px; 
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+
+
+#history {
+    position: relative;
+    background-image: url('../Images/history.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px; /* Добавляем отступы */
+    color: #fff;
+}
+
+/* Затемнение фона */
+#history::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачное затемнение */
+    z-index: 1;
+}
+
+#history .description {
+    position: relative;
+    z-index: 2; /* Поверх затемнения */
+    max-width: 600px; 
+    margin: 0 auto; /* Центрируем текст */
+}
+
+.mission-box {
+    padding: 7%;
+    color:#fff;
+    position: relative;
+    left: 27px;
+}
+#mission_title{
+    padding: 7% 0 0;
+    position: relative;
+    left: 15px;
+}
+
+.icon {
+    margin-bottom: 2rem;
+    color:#00ff99;
+    margin-left: 6rem;
+}
+.icon:hover{
+    transform: scale(1.30);
+}
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px; 
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+}
+section img {
+    max-width: 100%;
+    border: 2px solid #c1dfd3;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff99;
+}
+footer {
+    background: linear-gradient(360deg, #40394A, #111);
+    color: #ff00ff;
+}
+
+footer h5 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff00ff;
+}
+
+footer a:hover {
+    color: #ff00ff !important;
+}
+
