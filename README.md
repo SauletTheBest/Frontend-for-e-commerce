@@ -13,4 +13,7 @@ This repository contains the frontend pages I developed as part of our group's w
 
 
 Screenshots of these pages are included to demonstrate the visual design and layout.
+
 ![ABOUT US PAGE](assets/about_us.png)
+![ABOUT US PAGE](assets/about_us1.png)
+
