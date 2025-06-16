@@ -22,10 +22,12 @@ Screenshots of these pages are included to demonstrate the visual design and lay
 ![ABOUT US PAGE](assets/about_us3.png)
 
 **CHECKOUT**
+
 ![CHECKOUT](assets/cheekout.png)
 ![CHECKOUT](assets/checkout_2.png)
 
 **MODELS**
+
 ![MODELS](assets/models.png)
 ![MODELS](assets/models1.png)
 ![MODELS](assets/models2.png)
